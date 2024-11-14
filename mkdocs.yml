@@ -1,0 +1,19 @@
+site_name: Documentation site de CHARTRES - SportLudique Project 2024-2025 
+theme:
+  name: material
+  language: fr 
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: deep-orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep-orange
+      accent: light-blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode

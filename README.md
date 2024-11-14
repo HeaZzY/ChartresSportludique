@@ -1,2 +1,1 @@
-# ChartresSportludique
-Doc ChartresSportludique
+# Mkdocs
