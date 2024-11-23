@@ -1,3 +1,7 @@
+---
+title: " 2. Créer un Pool RaidZ1 avec ZFS"
+---
+
 # Créer un Pool RaidZ1 avec ZFS : Guide Complet en 34 Étapes
 
 Ce guide explique comment créer un Pool **RaidZ1** avec 4 disques en ZFS. Chaque étape est accompagnée d'une image pour illustrer les actions à réaliser.
@@ -178,17 +182,22 @@ Cochez le Pool créé et appliquez la mise à jour des fonctionnalités ZFS :
 La mise à jour des fonctionnalités est terminée :  
 ![](../images/imagenas/etape29.JPG)
 
----
-
-## 30. Vérification de l'état du Pool  
-Vérifiez que l'état du Pool est "clean" :  
 ![](../images/imagenas/etape30.JPG)
 
 ---
 
-## 31. Synchronisation après création via la ligne de commande  
-Si vous avez créé le Pool en ligne de commande, synchronisez-le pour qu'il soit visible dans l'interface web :  
+## 30. Vérification de l'état du Pool  
+Vérifiez que l'état du Pool est "clean" :  
+
 ![](../images/imagenas/etape31.JPG)
+
+![](../images/imagenas/etape32.JPG)
+---
+
+## 31. Synchronisation  
+Si vous avez créé le Pool en ligne de commande, synchronisez-le pour qu'il soit visible dans l'interface web : 
+
+![](../images/imagenas/etape33.JPG)
 
 ---
 
