@@ -118,3 +118,14 @@ Modifiez la ligne `Server` pour y mettre l'adresse IP de votre serveur Zabbix :
 
 `sudo systemctl restart zabbix-agent`  
 `sudo systemctl enable zabbix-agent`
+
+
+## Etape 10 : Ajouter un hote a l'appli zabbix
+
+![host](image.png)
+
+=> Crée un hote => mettez les infos 
+
+Une fois tout ca fait vous devriez voir l'hote apparaitre dans la liste des hotes
+
+![host list](image-1.png)
