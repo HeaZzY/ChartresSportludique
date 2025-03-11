@@ -122,10 +122,10 @@ Modifiez la ligne `Server` pour y mettre l'adresse IP de votre serveur Zabbix :
 
 ## Etape 10 : Ajouter un hote a l'appli zabbix
 
-![host](image.png)
+![host](images/zabbix/image.png)
 
 => Crée un hote => mettez les infos 
 
 Une fois tout ca fait vous devriez voir l'hote apparaitre dans la liste des hotes
 
-![host list](image-1.png)
+![host list](images/zabbix/image-1.png)

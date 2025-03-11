@@ -1,4 +1,4 @@
-# HA proxy configuration
+# HA proxy
 
 Dans **/etc/haproxy/haproxy.cfg**
 

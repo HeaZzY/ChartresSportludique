@@ -1,7 +1,10 @@
 ---
 title: "Se connecter en root via grub"
 ---
-### /!\ A utiiser en dernier recours
+
+# Se connecter en root via grub
+!!! note "Remarque"
+    A utiiser en dernier recours
 
 # Contexte
 Lors de l'installation de la debian nous avons pas mis de mot de passe pour l'utilisateur root.
@@ -18,7 +21,7 @@ Allumer la machine sur nutanix une fois allumer faire un ctrl + alt + suppr
 
 une fois dans l'interface du bootloader appuyer sur la touche e
 Et ajouter ces 2 paramètres :
-![Grub](images/grub.png)
+![Grub](../images/grub.png)
 
 Une fois fais il suffit de faire F10 pour reboot avec ces paramètres grub.
 

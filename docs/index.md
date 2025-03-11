@@ -1,54 +1,94 @@
 # Présentation du Projet
 
----
----
+### Introduction
+Ce projet a été réalisé dans le cadre d’un **travail de classe en BTS SIO (Services Informatiques aux Organisations)**, spécialité **SISR (Solutions d’Infrastructure, Systèmes et Réseaux)**.  
+L’objectif est de mettre en place une **documentation technique** sur l’infrastructure informatique d’une entreprise fictive.
 
-## SportLudique SARL
+### Objectifs pédagogiques :
+- Comprendre la gestion des infrastructures réseau et système.
+- Expérimenter la documentation technique en entreprise.
+- Appliquer les bonnes pratiques IT (sécurité, gestion des services, réseau).
+- Se familiariser avec les outils de documentation tels que **MkDocs**.
 
-### Présentation générale de l’entreprise
+### Présentation de l’entreprise fictive : **SportLudique SARL**
+SportLudique SARL est une entreprise fictive spécialisée dans la conception et la fabrication d’équipements sportifs et de loisirs.  
+Elle dispose de **quatre sites en région Centre** et emploie **452 personnes**.  
 
-**Activité :**  
-SportLudique SARL est une société basée en région Centre, spécialisée dans la conception et la fabrication d'articles de sports et de loisirs. Créée en 1995, elle emploie aujourd'hui 452 personnes réparties sur quatre sites :
+Nous avons simulé le rôle **d’administrateurs systèmes et réseaux** au sein du site de **Chartres**, qui regroupe le siège social et plusieurs services stratégiques.
 
-- **Chartres :** Siège social, regroupant la direction, le marketing, les finances, les ressources humaines et la direction des services informatiques (DSI).
-- **Orléans :** Usine de production d'équipements extérieurs en bois.
-- **Tours :** Laboratoire de tests et production d'équipements en plastique.
-- **Bourges :** Plateforme logistique centrale pour la gestion des stocks.
-
-SportLudique connaît une croissance soutenue grâce à une offre diversifiée, incluant des installations clé en main pour les collectivités.
-
-### Données économiques et juridiques
-
-- **Dénomination sociale :** SportLudique SARL
-- **Début d'activité :** 16/10/1995
-- **SIRET :** 347839493 00021
-- **Statut juridique :** SARL
-- **Capital social :** 485 000 €
-- **Chiffre d'affaires 2014 :** 8 562 000 €
-- **Bénéfice net 2014 :** 1 735 200 €
-- **Nombre d'employés :** 452
-
-### Organigramme
-
-La **Direction des Services Informatiques (DSI)** est dirigée par Monsieur Claude Postic, épaulé par une équipe de 4 techniciens. Le service des Ressources Humaines est sous la direction de Madame Helen Paisley-Le Bihan.
+### Infrastructure Documentée
+Nous avons utilisé **MkDocs** pour centraliser et structurer la documentation technique liée à :
+- L’infrastructure réseau et système.
+- La gestion des serveurs et des postes de travail.
+- Les politiques de sécurité et de sauvegarde.
+- Les procédures de maintenance et d’administration.
 
 ---
 
-## Le site de Chartres
+## Simulation en Entreprise
 
-Le site de **Chartres** regroupe le siège social de l'entreprise ainsi que plusieurs services stratégiques, notamment la direction générale, le marketing, les finances, les ressources humaines et la direction des services informatiques.
+# SportLudique SARL – Présentation Générale
 
-### Équipe de gestion du site de Chartres
+## 📌 Activité  
+SportLudique SARL est une société basée en **région Centre**, spécialisée dans la **conception et la fabrication d’articles de sports et de loisirs**.  
+Depuis sa création en **1995**, l’entreprise connaît une croissance soutenue et emploie aujourd’hui **452 personnes** réparties sur **quatre sites** :
 
-Nous sommes deux responsables en charge du site de **Chartres** :
+- **Chartres** : Siège social (Direction, Marketing, Finances, RH, DSI).
+- **Orléans** : Usine de production d’équipements en bois.
+- **Tours** : Laboratoire de tests et production d’équipements plastiques.
+- **Bourges** : Plateforme logistique centrale.
 
-- **Sébastian** : Administrateur des systèmes et réseaux
-- **Mathys** : Administrateur des systèmes et réseaux
+Grâce à son offre diversifiée, SportLudique fournit des **installations clé en main** pour les collectivités.
 
-Ensemble, nous assurons la gestion complète de l'infrastructure informatique locale, veillant au bon fonctionnement des systèmes pour les services internes, tout en participant à la coordination des projets IT en collaboration avec les autres sites de SportLudique.
+## 📊 Données économiques et juridiques  
+- **Dénomination sociale** : SportLudique SARL  
+- **Début d’activité** : 16/10/1995  
+- **SIRET** : 347839493 00021  
+- **Statut juridique** : SARL  
+- **Capital social** : 485 000 €  
+- **Chiffre d’affaires 2014** : 8 562 000 €  
+- **Bénéfice net 2014** : 1 735 200 €  
+- **Nombre d’employés** : 452  
 
 ---
 
-## Documentation sur l'infrastructure
+# 📍 Le site de Chartres  
 
-L'intégralité de la documentation technique relative à notre infrastructure IT est disponible sur **MkDocs**. Cette documentation couvre tous les aspects liés à la gestion du réseau, des serveurs, de la sécurité et des systèmes utilisés sur notre site.
+Le site de Chartres regroupe **le siège social de l’entreprise**, où sont basés les services stratégiques :  
+✅ Direction Générale  
+✅ Ressources Humaines  
+✅ Finances  
+✅ Marketing  
+✅ Direction des Services Informatiques (DSI)  
+
+### 🏢 **Direction des Services Informatiques (DSI)**
+La **DSI** est dirigée par **M. Claude Postic**, accompagné d’une équipe de **4 techniciens**.  
+Elle est responsable de l’**infrastructure IT**, de la **cybersécurité** et du **support technique** sur l’ensemble des sites.
+
+### 👨‍💻 **Équipe IT du site de Chartres**
+Nous sommes **deux administrateurs systèmes et réseaux**, chargés de la gestion informatique locale :
+- **Sébastian** : Administrateur Systèmes et Réseaux
+- **Mathys** : Administrateur Systèmes et Réseaux
+
+#### 🔹 Nos missions :
+- Maintenir l’**infrastructure informatique** du site.
+- Gérer les **serveurs, réseaux et systèmes**.
+- Assurer la **sécurité des données et des accès**.
+- Coordonner les projets IT avec les autres sites.
+
+---
+
+## 📖 Documentation IT avec MkDocs  
+Nous avons centralisé toute la documentation technique dans **MkDocs** pour garantir une gestion claire et efficace de notre infrastructure.  
+
+### 📂 Contenu de la documentation :
+- 🔧 **Réseau et connectivité**  
+- 🖥 **Gestion des serveurs et postes de travail**  
+- 🔐 **Sécurité informatique et sauvegardes**  
+- 📜 **Procédures de maintenance et administration**  
+
+🔗 *Accédez à la documentation complète sur notre plateforme interne !*  
+
+---
+
+🚀 **SportLudique SARL – Une entreprise en constante évolution !**

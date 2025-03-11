@@ -1,8 +1,14 @@
-site_name: Documentation site de CHARTRES - SportLudique Project 2024-2025 
+site_name: Documentation site de CHARTRES - SportLudique Project 2024-2025
+site_description: Documentation professionnelle avec thème clair/sombre
+site_author: Daruma & Heazzy
+copyright: Made by Daruma & Heazzy 
+
 theme:
   name: material
-  language: fr 
+  custom_dir: docs
+  copyright: Made by Daruma & Heazzy
   palette:
+    # Mode clair par défaut
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: blue
@@ -10,6 +16,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+    # Mode sombre
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: deep-orange
@@ -17,3 +24,86 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+  features: 
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  icon:
+    social:
+      - type: fontawesome/brands/github
+        link: https://github.com/votrecompte
+      - type: fontawesome/brands/twitter
+        link: https://twitter.com/votrecompte
+      - type: fontawesome/brands/linkedin
+        link: https://linkedin.com/in/votrecompte
+
+# Extensions Markdown
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - footnotes
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search
+
+nav:
+  - Accueil: index.md
+  - Configuration:
+      - Introduction: configuration/index.md
+      - Firewall:
+          - Stormshield SN210: configuration/FWSN210.md
+      - Switch HP A5500:
+          - Configuration: configuration/switch_hp_a5500.md
+          - Stack: configuration/stack_hp_a5500.md
+      - Routeurs:
+          - Routeurs: configuration/routeurs.md
+          - Routeur Linux: configuration/routeur_linux.md
+      - Reverse Proxy:
+          - Nginx sur Debian: configuration/reverse_proxy_nginx_debian.md
+          - HAProxy: configuration/haproxy.md
+  - Infrastructure Réseau:
+      - Schéma Réseau: infrastructure/schema_reseau.md
+      - DMZ: infrastructure/dmz_pub.md
+      - DNS:
+          - DNS Unbound: infrastructure/dns_unbound.md
+          - DNS Bind: infrastructure/dns_bind.md
+      - WiFi:
+          - Microsoft NPS: infrastructure/microsoft_nps.md
+          - WIFI: infrastructure/wifi.md
+      - NTP:
+          - NTP: infrastructure/ntp.md
+          - Synchronisation NTP: infrastructure/ntp_synchro.md
+      - VPN & LDAP:
+          - LDAP: infrastructure/ldap.md
+          - VPN: infrastructure/vpn.md
+  - Services:
+      - Proxmox: services/proxmox.md
+      - NAS: services/nas.md
+      - Monitoring:
+          - Introduction: services/monitoring/index.md
+          - Wazuh: services/monitoring/wazuh.md
+          - Zabbix: services/monitoring/zabbix.md
+      - HMAILServer: services/hmailserver.md
+  - Sécurité:
+      - Création Autorité: securite/creation_authorite.md
+      - Création Certificat: securite/creation_certificat.md
+  - Astuces et Dépannage:
+      - Root_loggrub: astuces/rootloggrub.md
+
+# Pied de page personnalisé et réseaux sociaux
+extra:
+  generator: false  # Supprime le texte "Made with MkDocs"
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HeaZzY/ChartresSportludique
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/sebastian-lungoci/overlay/1738958381920/single-media-viewer/?profileId=ACoAAEIdjK8BjtCAkjOno9M0sn8J0d1Gwlx3i6M

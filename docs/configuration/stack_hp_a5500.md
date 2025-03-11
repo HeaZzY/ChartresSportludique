@@ -8,7 +8,7 @@ title: "Stack switch hp A5500"
 Nous avons 2 switch HP A5500 1 configuré sur l'ip 192.168.1.1 temporairement et 1 non configuré.
 Nous aimerions les stacké afin que ces 2 switch ne forment qu'un. Nous avons donc raccordé 2 ports LSPX comme suit:
 
-![Raccordement](images/switch.jpg)
+![Raccordement](../images/switch.jpg)
  
 ## Switch 1 : Configuration Initiale
  
