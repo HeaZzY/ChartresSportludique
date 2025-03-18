@@ -1,7 +1,9 @@
 site_name: Documentation site de CHARTRES - SportLudique Project 2024-2025
 site_description: Documentation professionnelle avec thème clair/sombre
 site_author: Daruma & Heazzy
-copyright: Made by Daruma & Heazzy 
+copyright: Made by Daruma & Heazzy
+repo_url: https://github.com/stefanotr/projetsiotours
+repo_name: GitHub
 
 theme:
   name: material
@@ -85,6 +87,8 @@ nav:
       - VPN & LDAP:
           - LDAP: infrastructure/ldap.md
           - VPN: infrastructure/vpn.md
+      - TOIP:
+          - Téléphonie: infrastructure/telephonie.md
   - Services:
       - Proxmox: services/proxmox.md
       - NAS: services/nas.md
