@@ -2,13 +2,15 @@ site_name: Documentation site de CHARTRES - SportLudique Project 2024-2025
 site_description: Documentation professionnelle avec thème clair/sombre
 site_author: Daruma & Heazzy
 copyright: Made by Daruma & Heazzy
-repo_url: https://github.com/stefanotr/projetsiotours
+repo_url: https://github.com/HeaZzY/ChartresSportludique
 repo_name: GitHub
 
 theme:
   name: material
   custom_dir: docs
   copyright: Made by Daruma & Heazzy
+  logo: assets/images/logo.png  
+  favicon: assets/images/logo.png
   palette:
     # Mode clair par défaut
     - media: "(prefers-color-scheme: light)"
@@ -33,25 +35,30 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
-  icon:
-    social:
-      - type: fontawesome/brands/github
-        link: https://github.com/votrecompte
-      - type: fontawesome/brands/twitter
-        link: https://twitter.com/votrecompte
-      - type: fontawesome/brands/linkedin
-        link: https://linkedin.com/in/votrecompte
+    - content.code.copy  # Ajout du bouton de copie pour les blocs de code
+
+extra_css:
+  - stylesheets/extra.css
 
 # Extensions Markdown
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
   - admonition
   - codehilite
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - pymdownx.tabbed
   - footnotes
   - toc:
-      permalink: true
+      permalink: true  
 
 # Plugins
 plugins:
