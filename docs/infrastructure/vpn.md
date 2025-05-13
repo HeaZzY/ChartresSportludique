@@ -55,7 +55,7 @@ key /etc/openvpn/server.key
 dh /etc/openvpn/dh.pem
 
 # Activer l'authentification TLS
-tls-auth /etc/openvpn/ta.key 0
+#tls-auth /etc/openvpn/ta.key 0
 
 
 # Réseau de clients OpenVPN
@@ -80,17 +80,7 @@ verb 3
 # Fichiers de persistances
 ifconfig-pool-persist /etc/openvpn/ipp.txt
 
-# Autoriser l'accès en tant qu'administrateur
 client-to-client
 
 topology subnet
-
-#plugin /usr/lib/openvpn/openvpn-auth-ldap.so /etc/openvpn/auth-ldap.conf
-#client-cert-not-required
-#username-as-common-name
-# Forcer l'authentification TLS
-#auth-nocache
-
-plugin /usr/lib/openvpn/openvpn-auth-ldap.so /etc/openvpn/auth-ldap.conf
-#verify-client-cert none
 ```
